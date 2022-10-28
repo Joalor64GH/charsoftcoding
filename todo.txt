@@ -1,0 +1,5 @@
+Hscript Support
+Lua Support
+HXS Support
+Softcode Characters
+Freeplay Colors
