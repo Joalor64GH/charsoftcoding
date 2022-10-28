@@ -1,11 +1,11 @@
 bf
+bf-dead
 dad
 gf
 gf-christmas
 gf-car
 gf-pixel
 gf-christmas
-spooky
 spooky
 pico
 mom
@@ -16,6 +16,7 @@ monster-christmas
 bf-christmas
 monster
 bf-pixel
+bf-pixel-enemy
 senpai
 senpai-angry
 spirit
