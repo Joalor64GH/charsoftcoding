@@ -71,7 +71,7 @@ class Character extends FlxSprite
 				healthBarColor = "FFa5004d";
 
 			case 'gf-christmas':
-				tex = Paths.getSparrowAtlas('christmas/gfChristmas');
+				tex = Paths.getSparrowAtlas('characters/gfChristmas');
 				frames = tex;
 				gilfriendAnimation();
 
@@ -106,7 +106,7 @@ class Character extends FlxSprite
 
 				playAnim('danceRight');
 
-				setGraphicSize(Std.int(width * states.PlayState.daPixelZoom));
+				setGraphicSize(Std.int(width * PlayState.daPixelZoom));
 				updateHitbox();
 				antialiasing = false;
 
