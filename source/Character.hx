@@ -464,7 +464,7 @@ class Character extends FlxSprite
 		}
 
 }               
-                (!healthBarColor.startsWith("#"))
+                !healthBarColor.startsWith("#")
 			healthBarColor = "#" + healthBarColor;
 
 		dance();
