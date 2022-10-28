@@ -14,12 +14,12 @@ using StringTools;
 
 typedef CharacterData =
 {
-	var char:String;
+    var char:String;
     var texture:String;
     var xOffset:Int;
     var yOffset:Int;
     var anims:Array<String>;
-	var healthBarColor:String;
+    var healthBarColor:String;
 };
 
 class Character extends FlxSprite
@@ -464,7 +464,7 @@ class Character extends FlxSprite
 		}
 
 }               
-                if(!healthBarColor.startsWith("#"))
+                (!healthBarColor.startsWith("#"))
 			healthBarColor = "#" + healthBarColor;
 
 		dance();
